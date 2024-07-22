@@ -1,0 +1,144 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #17202A;
+}
+
+.slider-frame {
+  width: auto;
+  height: 480px;
+  margin: 10px auto 0;
+  overflow: hidden;
+}
+
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slide 16s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider-frame img {
+  width: 100%;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+.video {
+  background: #273746;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.video p {
+  background: #273746;
+  margin: 5px;
+  padding: 5px;
+}
+
+.parent {
+  padding-bottom: -1000px;
+  display: flex;
+}
+
+.parent div {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #273746;
+  background: linear-gradient(to top left, #273746 0%, #273746 100%);
+  border-radius: 5px;
+  line-height: 2rem;
+}
+
+.parent p {
+  background-color: #273746;
+  margin: 5px;
+  padding: 5px;
+}
+
+.parent h3 {
+  background-color: #273746;
+  margin: 5px;
+  padding: 5px;
+}
+
+.div1 img {
+  width: 320px;
+  height: 190px;
+  float: center;
+}
+
+.div2 img {
+  width: 320px;
+  height: 190px;
+  float: center;
+}
+
+.div3 img {
+  width: 320px;
+  height: 190px;
+  float: center;
+}
+
+.div4 img {
+  width: 320px;
+  height: 190px;
+  float: center;
+}
+
+@media (max-width: 1300px) {
+  .parent {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .parent div {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=styles.css.map */

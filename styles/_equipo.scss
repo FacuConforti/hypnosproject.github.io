@@ -1,0 +1,68 @@
+.parent {
+    padding-bottom: -1000px;
+    display: flex;
+}
+
+.parent div{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #273746;
+    background: linear-gradient(to top left, #273746 0%, #273746 100%);
+    border-radius: 5px;
+    line-height: 2rem;
+}
+
+.parent p{
+    background-color: #273746;
+    margin: 5px;
+    padding: 5px;
+}
+
+.parent h3{
+    background-color: #273746;
+    margin: 5px;
+    padding: 5px;
+}
+
+.div1 img{
+    width: 320px;
+    height: 190px;
+    float: center;
+}
+
+.div2 img{
+    width: 320px;
+    height: 190px;
+    float: center; 
+}
+
+.div3 img{
+    width: 320px;
+    height: 190px;
+    float: center; 
+}
+
+.div4 img{
+    width: 320px;
+    height: 190px;
+    float: center; 
+}
+
+@media (max-width: 1300px){
+    .parent{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .parent div{
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
